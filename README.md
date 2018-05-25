@@ -19,6 +19,12 @@ Variation of GPU time rendering of 3D canvas allows to generate unique token for
 Also, this approach was widely used for deanonymization of Tor's user, in force of this fact, Tor's developers made 
 a patch for this exploit, for now, Tor notifies user of canvas read attempt and return blank image data.
 
+![Text on a canvas](https://github.com/arukavytsia/canvas-fingerprinting/raw/master/assets/images/4.png 
+"The text which was pictured on a canvas for the identification")
+
+The text which was pictured on a canvas for the identification and successfully blocked by 
+[CanvasFingerprintBlock](https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc)
+
 ## How to protect yourself from it?
 
 A lot of add-ons allow you to prevent attempt to fetch canvas fingerprint like 
